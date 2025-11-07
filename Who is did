@@ -1,0 +1,120 @@
+
+KELECHİ
+Group Member 1: Dice Roller
+
+Responsibilities:
+
+Simulate dice rolls by generating random numbers between 1 and 6.
+
+Allow the user to choose how many dice to roll (multiple dice can be rolled).
+
+Output the results to console or file.
+
+Create a function for rolling the dice.
+
+Key Concepts:
+
+Random Number Generation (Randomness)
+
+Loops (To roll multiple dice)
+
+Functions (The dice rolling process should be handled by a function)
+
+File Writing (Optional) (Writing the results to a file)
+
+-----------------------------------------------------------------------------------
+Tsheltrem
+Group Member 2: Score Manager
+
+Responsibilities:
+
+Calculate scores based on the results from the Dice Roller.
+
+Scoring rules:
+
+6 → +2 points
+
+1 → -1 point
+
+2-5 → +1 point
+
+Track players' scores in a data structure (e.g., map or array).
+
+Update and output the current standings to the console or a file.
+
+Key Concepts:
+
+Conditional Statements (if-else)
+
+Arrays and Maps (For storing and updating scores)
+
+File Reading/Writing (Optional)
+-----------------------------------------------------------------------------------
+SELİM
+
+Group Member 3: Game Controller
+
+Responsibilities:
+
+Control the flow of the game.
+
+Get input from the user about the number of rounds (e.g., 5 rounds).
+
+Call the Dice Roller and Score Manager to proceed with the game.
+
+Declare a winner or a draw at the end of the game.
+
+Print the results at the end and provide an option to play again.
+
+Key Concepts:
+
+Control Flow (if-else, loops)
+
+Modular Design (Linking the different parts of the program together)
+
+User Input (Getting data from the user)
+
+-----------------------------------------------------------------------------------
+ERKİN
+Group Member 4: Statistics Tracker and/or GUI/CLI Interface
+Option 1: Statistics Tracker
+
+Responsibilities:
+
+Track statistics during the game (e.g., average roll, most common roll, etc.).
+
+Output statistical data, such as the average roll, most common result, or highest/lowest roll.
+
+Key Concepts:
+
+Arrays and Frequency Counters (To track statistics)
+
+Basic Statistics Calculations (Averages, modes, etc.)
+
+Option 2: GUI/CLI Interface
+
+Responsibilities:
+
+Develop a user-friendly interface (either CLI or GUI) to run the game.
+
+Players can start the game, input the number of rounds, and see the result at the end.
+
+For GUI, a graphical window with buttons and results, or for CLI, a text-based menu system.
+
+Key Concepts:
+
+User Interface (CLI or GUI) (Designing the game interface)
+
+Data Input and Output (Getting input from the user and displaying results)
+
+Integration:
+
+File-Based: Each program writes/reads from a shared file.
+
+Function-Based: If combined into one project, each student writes a module/class that interacts with others.
+
+Command-Line: Programs can pass data via command-line arguments or standard input/output.
+-----------------------------------------------------------------------------------
+
+
+
